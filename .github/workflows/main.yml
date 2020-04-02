@@ -19,7 +19,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Explain why this job ran
-      uses: monacorp/action-name@master
       with:
         entrypoint: /bin/echo
         args: The ${{ github.event.pusher.name }} triggered this step.
